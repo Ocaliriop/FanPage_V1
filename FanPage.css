@@ -1,0 +1,192 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center; /* Centra todo el texto por defecto */
+  }
+  .image-container {
+    text-align: center; /* Centra el contenido dentro del contenedor */
+  }
+  
+  .image-container img {
+    display: inline-block; /* Hace que la imagen se comporte como un bloque en línea */
+    max-width: 20%; /* Ajusta la imagen a su contenedor si es necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  
+  header {
+    background-color: #f4f4f9; /* Fondo blanco */
+    padding: 2em 0;
+  }
+  img {
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  .main-title {
+    color: red;
+    font-weight: bold;
+    font-size: 5em;
+    margin: 0.2em 0;
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  
+  .subtitle {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+  }
+  
+  .subtitle.primary {
+    color: #8B4513; /* Color café oscuro */
+    font-weight: bold;
+  }
+  
+  .subtitle.secondary {
+    color: #8B4513; /* Color café oscuro */
+    font-style: italic;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  #recycling-guide, #form-section {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alinea el texto a la izquierda dentro de las secciones */
+  }
+  
+  h2 {
+    color: #4caf50;
+  }
+  
+  ul {
+    padding-left: 1.5em;
+  }
+  
+  ul li {
+    margin-bottom: 0.5em;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus {
+    border: 1px solid #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  button {
+    padding: 0.7em;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+  }
+  
+  .social-link {
+    color: #4caf50; /* Color de los íconos */
+    font-size: 2em; /* Tamaño de los íconos */
+    text-decoration: none; /* Elimina el subrayado */
+    transition: color 0.3s ease;
+  }
+  
+  .social-link:hover {
+    color: #3e8e41; /* Cambia el color al pasar el mouse */
+  }
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Estilos para las pestañas */
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .tab-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilo para el contenido de las pestañas */
+  .tab-content {
+    display: none;
+    margin-top: 2em;
+  }
+  
+  img {
+    display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre las imágenes */
+  margin-top: 2em;
+  text-align: center;
+  }
+  
+  audio, video {
+    margin-top: 1em;
+  }
+  
+  /* Mostrar el contenido de la primera pestaña por defecto */
+  #images {
+    display: block;
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+    
