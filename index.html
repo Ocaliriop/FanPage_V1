@@ -33,14 +33,15 @@
     <!-- Pestañas -->
     <div class="tabs">
       <button class="tab-button" onclick="showTab('images')">Imágenes</button>
-      <button class="tab-button" onclick="showTab('audio')">Audio</button>
       <button class="tab-button" onclick="showTab('video')">Video</button>
+      <button class="tab-button" onclick="showTab('audio')">Audio</button>
+
     </div>
 
     <!-- Contenido de las Pestañas -->
     <div id="images" class="tab-content">
         <h3>Galería de Imágenes</h3>
-        <img src="https://procity.com.pe/wp-content/uploads/2020/06/00-reciclaje-que-desechos-rescatar-y-cuales-botar.jpg" alt="Imagen 1" width="300">
+        <img src="https://procity.com.pe/wp-content/uploads/2020/06/00-reciclaje-que-desechos-rescatar-y-cuales-botar.jpg" alt="Imagen 1" width="400">
       </div>
       
 
@@ -57,28 +58,46 @@
         </iframe>
       </div>
       
-      
-
     <div id="video" class="tab-content" style="display: none;">
         <h3>Video Promocional</h3>
-        <iframe width="400" height="225" src="https://www.youtube.com/embed/G3Vlm8abEfc" frameborder="0" allowfullscreen></iframe>
+        <iframe width="600" height="325" src="https://www.youtube.com/embed/G3Vlm8abEfc" frameborder="0" allowfullscreen></iframe>
       </div>
-      
+      <div id="images" class="tab-content">
+
+        <h2>INFOGRAFÍAS</h2>
+        <div class="image-gallery">
+          <img src="Imagenes/Introducción a la Gestión de Residuos.png" alt="Introducción a la Gestión de Residuos" width="350">
+          <img src="Imagenes/Por que es importante el reciclaje.png" alt="Por qué es importante el reciclaje" width="350">
+          <img src="Imagenes/Tipos de Residuos y Su Clasificación.png" alt="Tipos de Residuos y Su Clasificación" width="350">
+        </div>
+      </div>
+      <h2>EL RECICLAJE EN ACCIÓN</h2>
+      <div class="image-gallery">
+        <img src="Imagenes/1.png" alt="Introducción a la Gestión de Residuos" width="500">
+        <img src="Imagenes/2.png" alt="Por qué es importante el reciclaje" width="500">
+        <img src="Imagenes/3.png" alt="Tipos de Residuos y Su Clasificación" width="500">
+      </div>
+    </div>
+   
     <section id="form-section">
-      <h2>Registro de Residuos</h2>
-      <form id="waste-form">
-        <label for="organic">Residuos Orgánicos (kg):</label>
-        <input type="number" id="organic" name="organic" min="0" step="0.1" required>
-
-        <label for="recyclable">Residuos Reciclables (kg):</label>
-        <input type="number" id="recyclable" name="recyclable" min="0" step="0.1" required>
-
-        <label for="non-recyclable">Residuos No Reciclables (kg):</label>
-        <input type="number" id="non-recyclable" name="non-recyclable" min="0" step="0.1" required>
-
-        <button type="submit">Registrar Residuos</button>
-      </form>
-      <p id="form-message" aria-live="polite"></p>
+      <div class="form-container">
+        <h2>Registro de Residuos</h2>
+        <form id="waste-form">
+          <label for="organic">Residuos Orgánicos (kg):</label>
+          <input type="number" id="organic" name="organic" min="0" step="0.1" required>
+    
+          <label for="recyclable">Residuos Reciclables (kg):</label>
+          <input type="number" id="recyclable" name="recyclable" min="0" step="0.1" required>
+    
+          <label for="non-recyclable">Residuos No Reciclables (kg):</label>
+          <input type="number" id="non-recyclable" name="non-recyclable" min="0" step="0.1" required>
+    
+          <button type="submit">Registrar Residuos</button>
+        </form>
+        <p id="form-message" aria-live="polite"></p>
+      </div>
+    </section>
+    
 
       <h2>Síguenos en Redes Sociales</h2>
 

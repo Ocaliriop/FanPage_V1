@@ -63,7 +63,7 @@ body {
   }
   
   h2 {
-    color: #4caf50;
+    color: #ec0a19;
   }
   
   ul {
@@ -189,4 +189,38 @@ body {
     display: block;
     text-align: center; /* Centra el texto horizontalmente */
   }
-    
+  .image-gallery {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 10px; /* Espaciado entre las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten si el espacio no es suficiente */
+  }
+  
+  .image-gallery img {
+    border-radius: 8px; /* Bordes redondeados opcional */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para las imágenes */
+  }
+  .form-container {
+    max-width: 600px; /* Limita el ancho máximo */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+   
+    padding: 20px; /* Añade un margen interno */
+    background-color: #f9f9f9; /* Fondo claro */
+    border: 1px solid #ccc; /* Borde suave */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  }
+
+  #form-section h2 {
+    text-align: center; /* Centra solo el texto del título */
+  }
+
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
